@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+a {
+  color: #ccffcc;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+h1 {
+  font-size: 168px;
+}
+
+a:hover {
+  color: #87ceeb;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;/*IE/7/6*/
+}
+
+.header {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.header img {
+  display: block;
+  position: relative;
+  left: 50%;
+  margin-left: -220px;
+  float: left;
+}
+.header h1 {
+  display: block;
+  position: relative;
+  left: 50%;
+  margin: 0;
+  float: left;
+  height: 200px;
+  line-height: 200px;
+}
