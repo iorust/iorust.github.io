@@ -4,13 +4,12 @@ body {
 }
 
 a {
-  color: #ccffcc;
   text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 h1 {
@@ -18,7 +17,7 @@ h1 {
 }
 
 a:hover {
-  color: #87ceeb;
+  color: #000;
 }
 
 .clearfix:before,
@@ -33,19 +32,21 @@ a:hover {
   *zoom: 1;/*IE/7/6*/
 }
 
-.header {
+.title {
+  display: block;
   margin-top: 50px;
   width: 100%;
   text-align: center;
+  color: #333;
 }
-.header img {
+.title img {
   display: block;
   position: relative;
   left: 50%;
   margin-left: -220px;
   float: left;
 }
-.header h1 {
+.title h1 {
   display: block;
   position: relative;
   left: 50%;
